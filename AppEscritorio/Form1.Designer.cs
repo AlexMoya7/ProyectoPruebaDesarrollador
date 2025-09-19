@@ -88,6 +88,7 @@ namespace ProyectoPrueba.Escritorio
             // 
             // cboProductos
             // 
+            this.cboProductos.BackColor = System.Drawing.Color.YellowGreen;
             this.cboProductos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboProductos.FormattingEnabled = true;
             this.cboProductos.Location = new System.Drawing.Point(83, 15);
@@ -108,6 +109,7 @@ namespace ProyectoPrueba.Escritorio
             // 
             this.dgvVentasArticulo.AllowUserToAddRows = false;
             this.dgvVentasArticulo.AllowUserToDeleteRows = false;
+            this.dgvVentasArticulo.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(210)))), ((int)(((byte)(158)))));
             this.dgvVentasArticulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvVentasArticulo.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dgvVentasArticulo.Location = new System.Drawing.Point(3, 53);
@@ -133,6 +135,7 @@ namespace ProyectoPrueba.Escritorio
             // 
             this.dgvVentasTotales.AllowUserToAddRows = false;
             this.dgvVentasTotales.AllowUserToDeleteRows = false;
+            this.dgvVentasTotales.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(210)))), ((int)(((byte)(158)))));
             this.dgvVentasTotales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvVentasTotales.Location = new System.Drawing.Point(0, 0);
             this.dgvVentasTotales.Name = "dgvVentasTotales";
@@ -156,6 +159,7 @@ namespace ProyectoPrueba.Escritorio
             // 
             this.dgvMasVendidos.AllowUserToAddRows = false;
             this.dgvMasVendidos.AllowUserToDeleteRows = false;
+            this.dgvMasVendidos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(210)))), ((int)(((byte)(158)))));
             this.dgvMasVendidos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvMasVendidos.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvMasVendidos.Location = new System.Drawing.Point(0, 0);
@@ -180,6 +184,7 @@ namespace ProyectoPrueba.Escritorio
             // 
             this.dgvExistencias.AllowUserToAddRows = false;
             this.dgvExistencias.AllowUserToDeleteRows = false;
+            this.dgvExistencias.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(210)))), ((int)(((byte)(158)))));
             this.dgvExistencias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvExistencias.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvExistencias.Location = new System.Drawing.Point(0, 0);
@@ -189,7 +194,6 @@ namespace ProyectoPrueba.Escritorio
             this.dgvExistencias.RowTemplate.Height = 25;
             this.dgvExistencias.Size = new System.Drawing.Size(792, 421);
             this.dgvExistencias.TabIndex = 0;
-            //this.dgvExistencias.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvExistencias_CellContentClick);
             // 
             // Form1
             // 
